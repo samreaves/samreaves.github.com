@@ -1,0 +1,287 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+    background-color: #FFF;
+    font: 13.34px Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { text-decoration: none; color: rgb(250, 167, 50); }
+a:hover   { text-decoration: none; color: #000; }
+a:visited { text-decoration: none; color: #000; }
+
+/*****************************************************************************/
+/*
+/* Social Icons
+/*
+/*****************************************************************************/
+
+.contact .fa {
+    padding: 8px; 
+    background: #817e7e;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+.contact .fa:hover {
+    background: #000;
+}
+
+.contact a:visited {
+    color: #FFF;
+}
+
+.fa-twitter, .fa-envelope, .fa-github-alt {
+    color: #FFF;
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+}
+
+/*.contact .fa-github-alt {
+  //background: #FFF;
+  // color: #817e7e;
+  color: #FFF;
+}*/
+
+/*.contact .fa-github-alt:hover {
+  background: #FFF;
+  color: #000;
+}*/
+
+#mypicture {
+    height: 7rem;
+}
+
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+#home ul {
+    padding-left: 0;
+}
+
+#posts {
+    list-style-type: none;
+    padding-top: 2rem;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.posts {
+    list-style-type: none;
+    padding-top: 2rem;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.posts li {
+    line-height: 1.75em;
+}
+
+.posts li a {
+    font-size: 120%;
+}
+
+.posts span {
+    color: #aaa;
+    font-size: 110%;
+}
+
+footer {
+    text-align: center;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+.header {
+    font-size: 115%;
+    text-align: justify;
+    border-bottom: 4px dotted rgb(250, 167, 50);
+    padding-top: 1rem;
+
+}
+
+.header a {
+    line-height: 1.5em;font-weight: bold;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    padding-top: 0rem;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.byline {
+    font-size: 95%;
+    line-height: 1.7rem;
+    margin-top: 3px;
+}
+
+.byline span {
+    color: rgb(250, 167, 50);
+}
+
+
+
+#posts {
+    padding-top: 1rem;
+
+}
+
+
+
+.contact a {
+    margin-left: 2rem;
+}
+
+.meta {
+    color: #aaa;
+}
+
+.footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+.footer .contact {
+    float: left;
+    margin-right: 3em;
+}
+
+.footer .contact a {
+    color: #8085C1;
+}
+
+.footer .rss {
+    margin-top: 1.1em;
+    margin-right: -.2em;
+    float: right;
+}
+
+.footer .rss img {
+    border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+}
+
+.post ul, .post ol {
+    margin-left: 1.35em;
+}
+
+.post code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .2em;
+}
+
+.post pre code {
+    border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+}
+
+.post pre.terminal code {
+    background-color: #333;
+}
+
+.posts h2 {
+    font-size: 130%;
+}
+
+.post p {
+    font-size: 120%;
+}
+
+
+
+/**************
+MEDIA QUERIES
+**************/
+
+@media screen and (min-width: 768px) {
+    #mypicture {
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 1rem;
+    }
+    .title {
+        font-size: 4rem;
+        margin-bottom: .75rem;
+    }
+    .byline {
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+    .fa {
+        font-size:2rem;
+    }
+    #home {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (min-width: 640px) and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-width:640px) and (min-device-pixel-ratio: 1.5) {
+    #mypicture {
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 1rem;
+    }
+    .title {
+        font-size: 4rem;
+        margin-bottom: .75rem;
+    }
+    .byline {
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+    .fa {
+        font-size:2rem;
+    }
+    #home {
+        font-size: 2.8rem;
+    }
+}
