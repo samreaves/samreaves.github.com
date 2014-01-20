@@ -276,10 +276,15 @@ MEDIA QUERIES
     }
     .byline {
         font-size: 2.5rem;
-        line-height: 2.7rem;
+        line-height: 2.8rem;
+        margin-top: -.5rem;
     }
     .fa {
-        font-size:2rem;
+        font-size:2.5rem;
+        margin-top: 2rem;
+    }
+    .contact a {
+        margin-left: 1.3rem;
     }
     #home {
         font-size: 2.8rem;
